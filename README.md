@@ -18,37 +18,37 @@ To accomplish this goal, you will have to design fast building blocks, and then 
 # Instructions
 
 **LD Reg, memory address**
-– load instruction transfers value from the memory address to register Reg in the register file. 
+- load instruction transfers value from the memory address to register Reg in the register file. 
 
 **LD Reg1, Reg2**
-– load instruction that transfers the content of Reg2 into Reg1. 
+- load instruction that transfers the content of Reg2 into Reg1. 
 
 **LD Reg, PC**
-– loads the content of register Reg into the PC counter.
+- loads the content of register Reg into the PC counter.
 
 **LD PC, Reg**
-– loads the content of the PC counter into the register Reg of the register file.
+- loads the content of the PC counter into the register Reg of the register file.
 
 **ADD Reg1, Reg2**
-– adds the content of registers Reg1 and Reg2 and stores the result back to register Reg1, as a result, OV (overflow) and Z (zero) flags are set. 
+- adds the content of registers Reg1 and Reg2 and stores the result back to register Reg1, as a result, OV (overflow) and Z (zero) flags are set. 
 
 **CMPE Reg1, Reg2**
-– checks if Reg1 = Reg2, as a result, a certain EQ flag is set in register PSR. 
+- checks if Reg1 = Reg2, as a result, a certain EQ flag is set in register PSR. 
 
 **CMPL Reg1, Reg2**
-– checks if Reg1 < Reg2, as a result, a certain LT flag is set in register PSR. 
+- checks if Reg1 < Reg2, as a result, a certain LT flag is set in register PSR. 
 
 **SHF Reg**
-– shift left the content of register Reg (i) BRZ address – branch to address if Z flag was set by the previous instruction. 
+- shift left the content of register Reg (i) BRZ address – branch to address if Z flag was set by the previous instruction. 
 
 **BRE address**
-– branch to address if the EQ flag was set by the previous instruction. 
+- branch to address if the EQ flag was set by the previous instruction. 
 
 **BRL address**
-– branch to address if the LT flag was set by the previous instruction. 
+- branch to address if the LT flag was set by the previous instruction. 
 
 **BROV address**
-– branch to address if the IV flag was set by the previous instruction. 
+- branch to address if the IV flag was set by the previous instruction. 
 
 **ST Reg**
 - memory address stores the content of the Register into the memory location
